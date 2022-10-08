@@ -6,18 +6,18 @@ As a new Java developer, you will be required to familiarize yourself with exist
     * Method names
     * Variables
 * Using Java terminology, break down every piece of the method **convertF2K**.
-    * What is the access modifier?
-    * Is it a class or object method, how do you know?
-    * What is its return type?
-    * What parameters does it require, and what are the parameter(s) datatype(s)?
-    * Describe for me how the body of the method executes (i.e. its flow of execution).
+    * What is the access modifier? PUBLIC
+    * Is it a class or object method, how do you know? CLASS method because its static
+    * What is its return type? DOUBLE
+    * What parameters does it require, and what are the parameter(s) datatype(s)? FAHRENHEIT WITH DOUBLE
+    * Describe for me how the body of the method executes (i.e. its flow of execution). FAHRENHEIT is converted into celsius with a method and the another methods converts that into kelvin
 * Using Java terminology, break down method **getUnitChoice**.
-    * What is the access modifier?
-    * Is it a class or object method, how do you know?
-    * What is its return type?
-    * What parameters does it require, and what are the parameter(s) datatype(s)?
-    * Describe for me how the body of the method executes (i.e. its flow of execution).
-    * How do the format specifiers differ than what you've seen before and what do they do?
+    * What is the access modifier? PUBLIC
+    * Is it a class or object method, how do you know? CLASS method because its static
+    * What is its return type? STRING
+    * What parameters does it require, and what are the parameter(s) datatype(s)? NONE
+    * Describe for me how the body of the method executes (i.e. its flow of execution). It prints all the commands and then returns the input
+    * How do the format specifiers differ than what you've seen before and what do they do? It adds spaces to the left or right
 
 ## Part 2: - Implement Missing Method: convertK2F
 This Part is aimed at teaching you to use methods and code you have to add new functionality to existing code. In this case you will add the missing conversion method, but you don't need to know math :-)
